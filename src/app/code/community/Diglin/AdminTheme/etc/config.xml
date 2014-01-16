@@ -20,6 +20,12 @@
 */
 -->
 <config>
+    <modules>
+        <Diglin_AdminTheme>
+            <version>1.0.0</version>
+        </Diglin_AdminTheme>
+    </modules>
+    
     <global>
         <events>
             <adminhtml_controller_action_predispatch_start>
