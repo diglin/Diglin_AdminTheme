@@ -15,7 +15,7 @@ This Magento module allows to use a custom admin theme into Magento backend.
 
 Go to the menu `System > Configuration > General > Design > Admin Theme`
 
-![Configuration](https://raw.github.com/diglin/Diglin_AdminTheme/docs/images/configuration.png "Configuration Admin")
+![Configuration](https://raw.github.com/diglin/Diglin_AdminTheme/master/docs/images/configuration.png "Configuration Admin")
 
 
 ## Uninstall
