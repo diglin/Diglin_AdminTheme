@@ -8,6 +8,33 @@ This Magento module allows to use a custom admin theme into Magento backend.
 - Install [modman](https://github.com/colinmollenhour/modman)
 - Use the command from your Magento installation folder: `modman clone https://github.com/diglin/Diglin_AdminTheme.git`
 
+### Via Composer
+
+- Install [composer](http://getcomposer.org/download/)
+- Create a composer.json into your project like the following sample:
+
+```json
+{
+    ...
+    "require": {
+        "diglin/diglin_admintheme":"*"
+    },
+    "repositories": [
+	    {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "extra":{
+        "magento-root-dir": "./"
+    }
+}
+
+```
+
+- Then from your composer.json folder: `php composer.phar install` or `composer install`
+
+
 ### Manually
 - You can copy the files from the folders of this repository to the same folders of your installation starting from the `src` folder
 
