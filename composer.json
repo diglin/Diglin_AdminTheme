@@ -1,0 +1,16 @@
+{
+    "name":"diglin/diglin_admintheme",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "homepage":"https://github.com/diglin/Diglin_AdminTheme",
+    "description":"Add capability to support custom admin theme in Magento Backend",
+    "authors":[
+        {
+            "name":"Sylvain Rayé",
+            "email":"{firstname}.{lastname}@diglin.com"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
